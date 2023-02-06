@@ -1,0 +1,13 @@
+.list-props {
+  list-style-type: none;
+  background-color: #530385;
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.paragraph {
+  color: #ffffff;
+  font-size: 15px;
+}

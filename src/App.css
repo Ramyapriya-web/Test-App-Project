@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-cont {
+  width: 30vw;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ece75f;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+.head {
+  color: #530385;
+  font-size: 30px;
+  font-weight: bold;
+}
+.card-cont {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 90vh;
+  background-image: linear-gradient(to bottom, #530385, #9c5beb);
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 230px;
+}
+.ct1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.para {
+  color: #ffffff;
+  font-size: 14px;
+}
+.name-inp {
+  width: 150px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.butt {
+  padding: 6px;
+  width: 130px;
+  color: #530385;
+  background-color: #ffffff;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+}
+.para1 {
+  color: #ffffff;
+  font-size: 20px;
+}
+.card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.para2 {
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.para3 {
+  color: #ee9f27;
+  font-size: 14px;
+}
+.btt1 {
+  color: #ffffff;
+  background-color: transparent;
+  border-width: 0px;
+}
+.para4 {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: underline;
+}
