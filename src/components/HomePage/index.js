@@ -27,16 +27,18 @@ const HomePage = props => {
       </div>
       <div className="container-list">
         <h1 className="heads"> Entry Log </h1>
-        <ul className="cont-lis">
-          {loginList.map(eachUser => (
-            <DetailsOfUser
-              info={eachUser.nameInp}
-              key={eachUser.id}
-              add={location}
-              timeDet={timer}
-            />
-          ))}
-        </ul>
+        <div>
+          <ul className="cont-lis">
+            {loginList.map(eachUser => (
+              <DetailsOfUser
+                info={eachUser.nameInp}
+                key={eachUser.id}
+                add={location}
+                timeDet={timer}
+              />
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   )
